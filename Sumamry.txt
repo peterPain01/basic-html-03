@@ -1,0 +1,1 @@
+::before ::after must have properties: content: "", display: inline-block

@@ -326,6 +326,19 @@ a {
     width: 72px;
     height: 72px;
 }
+
+.card-item:nth-child(2){
+    position: relative;
+}
+
+.card-item .subcard-icon{
+    position: absolute;
+    top: 90px;
+    left: 94px;
+    width:33px;
+    height:33px;
+}
+
 .card-heading {
     font-size: 2.6rem;
     font-weight: 600;
