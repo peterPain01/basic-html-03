@@ -204,7 +204,7 @@ a {
     margin-top: 170px;
 }
 
-.service-top{
+.service-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,23 +223,500 @@ a {
     width: 468px;
 }
 
-.service-desc p{
+.service-desc p,
+.service_item-desc,
+.appointment-desc {
     font-size: 1.8rem;
     font-weight: 300;
     text-align: center;
-    color: #575F66;
+    color: #575f66;
 }
 
-.service-body{
+.service-body {
     margin-top: 70px;
     display: flex;
 }
-.service-media img{
+.service-media img {
     width: 570px;
     height: 570px;
     border-radius: 6px;
 }
 
-.service-info{
+.service-info {
     margin-left: 130px;
+}
+
+.service-item-img {
+    width: 30px;
+    height: 30px;
+}
+
+.service-item {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.service_item-desc {
+    text-align: left;
+    margin-left: 19px;
+    padding: 10px;
+}
+
+.service_item-desc h2 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 600;
+    text-align: left;
+    color: #10375c;
+}
+
+.service_item-desc p {
+    line-height: 1.6;
+}
+
+.service-action {
+    min-width: 205px;
+}
+
+.features {
+    margin-top: 170px;
+}
+
+.feature-top {
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+.features-heading {
+    margin-bottom: 18px;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #10375c;
+}
+
+.features-desc {
+    width: 468px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: left;
+    color: #575f66;
+}
+
+.cards {
+    display: flex;
+    /* padding-top: 42px; */
+}
+
+.card-item {
+    padding: 43px;
+    margin-right: 47px;
+    border: 16px solid #eaf6ff;
+}
+
+.card-item--active {
+    border: 16px solid #2e80ce;
+}
+.card-item img {
+    width: 72px;
+    height: 72px;
+}
+.card-heading {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: left;
+    color: #10375c;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.card-desc {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left;
+    color: #575f66;
+    line-height: 1.8;
+}
+
+.card-action {
+    display: inline-block;
+    margin-top: 18px;
+    color: #575f66;
+}
+
+.card-action--active {
+    color: #2e80ce;
+}
+
+/* About */
+.about {
+    margin-top: 170px;
+}
+
+.about-body {
+    display: flex;
+}
+
+.about-media {
+    display: flex;
+    margin-right: 180px;
+}
+.about__images {
+    position: relative;
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+}
+
+.about__image--small {
+    position: absolute;
+    top: 121px;
+    left: 253px;
+    width: 332px;
+    z-index: 1;
+}
+
+.about-content {
+    margin-top: 82px;
+}
+.about-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.7;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #10375c;
+}
+
+.about-desc {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: left;
+    color: #575f66;
+}
+
+.about-action {
+    margin-top: 38px;
+    min-width: 205px;
+}
+
+/* Booking */
+
+.booking {
+    margin-top: 170px;
+}
+
+.booking-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.booking-heading,
+.news-heading,
+.appointment-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #10375c;
+    margin-bottom: 38px;
+}
+
+.booking-action {
+    min-width: 205px;
+}
+.booking-cards {
+    margin-top: 95px;
+}
+
+.booking-list {
+    display: flex;
+}
+
+.booking__item {
+    padding: 0px 15px;
+}
+.booking__item--image {
+    width: 262px;
+    height: 290px;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.booking__item--name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    color: #10375c;
+    line-height: 1.4;
+}
+
+.booking__item--location {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    color: #575f66;
+}
+
+.row {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .rightArrow {
+    margin-left: 18px;
+}
+
+.apps {
+    margin-top: calc(70px + 95px);
+}
+
+.apps-body {
+    position: relative;
+    background-color: #2e80ce;
+    display: flex;
+    height: calc(522px - 97px);
+}
+
+.apps-content {
+    margin-top: 76px;
+    margin-left: 514px;
+}
+
+.apps-media img {
+    position: absolute;
+    top: -95px;
+    bottom: 0px;
+    left: 70px;
+    width: 284px;
+    height: 522px;
+}
+
+.apps-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    margin-bottom: 18px;
+    width: 500px;
+}
+
+.app-desc {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    line-height: 1.7;
+    width: 597px;
+    margin-bottom: 38px;
+}
+
+.ggStore {
+    margin-left: 30px;
+}
+
+.news {
+    margin-top: 170px;
+}
+
+.news-body {
+    display: flex;
+}
+.news-content {
+    width: 470px;
+}
+.news-heading {
+    text-align: left;
+}
+
+.news-action {
+    color: #10375c;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.news-nav {
+    margin-top: 28px;
+}
+
+.news .rightArrow {
+    margin-left: 18px;
+}
+
+.news-item .card-heading {
+    font-size: 1.8rem;
+}
+
+.news-item .card-desc {
+    font-size: 1.4rem;
+}
+
+.news-item .card-action {
+    font-size: 1.4rem;
+}
+
+.news-cards {
+    display: flex;
+    margin-left: 130px;
+}
+
+.news-cards .news-item {
+    width: 270px;
+    height: 375px;
+}
+.news-cards .news-item:first-child {
+    padding-right: 30px;
+}
+
+.news-img {
+    width: 270px;
+    height: 172px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+/* Appointment */
+.appointment-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointment-heading {
+    position: relative;
+}
+.appointment-heading::after {
+    position: absolute;
+    top: 68px;
+    left: calc(50% - 68px);
+    right: auto;
+    content: "";
+    display: inline-block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+}
+
+.appointment {
+    margin-top: 170px;
+}
+.appointmentAction {
+    min-width: 205px;
+}
+
+.appointment-desc {
+    width: 617px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.appointmentAction {
+    margin-top: 38px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 170px;
+    background: #10375c;
+    width: 100vw;
+}
+
+.footer-content {
+    padding-top: 100px;
+}
+
+.footer-columns {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-desc {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    color: #575f66;
+    padding-top: 21px;
+}
+
+.footer-column {
+    margin-left: 78px;
+}
+
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+}
+
+
+.footer-title {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.footer-column a:not(.btnSub),.footer-column p:not(.footer-title), .footer-copy p {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color:#575f66;
+    padding: 10px 0px;
+}
+
+.btnSub{
+    margin-top: 5px;
+    min-width: 108px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 12px;
+}
+
+[type="email"]{
+    border: 1px solid #406181 ;
+    width: 212px;
+    height: 46px;
+    background: #10375C;
+}
+
+.footer-social{
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.footer-columns::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #406181;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.footer-copy{
+    padding: 42px;
+    text-align: center;
 }
